@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Networking & Security Services Comparison</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <h1>Cloud Networking & Security Services Comparison</h1>
+                <p class="subtitle">Comprehensive analysis by cloud consultants</p>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-tabs">
+                    <button class="nav-tab active" data-view="dashboard">Dashboard</button>
+                    <button class="nav-tab" data-view="pricing">Pricing</button>
+                    <button class="nav-tab" data-view="sla">SLA & Performance</button>
+                    <button class="nav-tab" data-view="services">Service Matrix</button>
+                    <button class="nav-tab" data-view="providers">Provider Details</button>
+                    <button class="nav-tab" data-view="recommendation">Find My Provider</button>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main">
+            <div class="container">
+                <!-- Dashboard View -->
+                <section id="dashboard" class="view active">
+                    <h2>Provider Overview</h2>
+                    <div class="overview-grid">
+                        <!-- Provider cards will be populated by JavaScript -->
+                    </div>
+                    
+                    <div class="chart-section">
+                        <div class="chart-container" style="position: relative; height: 400px;">
+                            <h3>Pricing Comparison Overview</h3>
+                            <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/64987b641c67b377ce55b8b1de553dc5/2ba81802-05c6-41e2-a35a-e34c8496e992/92a007c8.png" alt="Cloud Pricing Chart" class="chart-image">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Pricing View -->
+                <section id="pricing" class="view">
+                    <div class="pricing-header">
+                        <h2>Pricing Comparison</h2>
+                        <div class="pricing-controls">
+                            <div class="form-group">
+                                <label class="form-label">Billing Period:</label>
+                                <select id="billing-toggle" class="form-control">
+                                    <option value="monthly">Monthly</option>
+                                    <option value="annual">Annual (10% discount)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Team Size:</label>
+                                <input type="number" id="team-size" class="form-control" value="10" min="1" max="1000">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-table">
+                        <!-- Pricing table will be populated by JavaScript -->
+                    </div>
+
+                    <div class="cost-calculator">
+                        <h3>Cost Calculator</h3>
+                        <div class="calculator-results">
+                            <!-- Calculator results will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SLA & Performance View -->
+                <section id="sla" class="view">
+                    <h2>SLA & Performance Comparison</h2>
+                    
+                    <div class="chart-container" style="position: relative; height: 400px;">
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/64987b641c67b377ce55b8b1de553dc5/0de03848-ba0a-4453-b29b-6b5c20be6f11/691e170d.png" alt="SLA and PoP Comparison" class="chart-image">
+                    </div>
+
+                    <div class="sla-metrics">
+                        <!-- SLA metrics will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Service Matrix View -->
+                <section id="services" class="view">
+                    <h2>Service Coverage Matrix</h2>
+                    <div class="service-legend">
+                        <span class="legend-item">
+                            <span class="service-available"></span> Available
+                        </span>
+                        <span class="legend-item">
+                            <span class="service-unavailable"></span> Not Available
+                        </span>
+                    </div>
+                    <div class="service-matrix">
+                        <!-- Service matrix will be populated by JavaScript -->
+                    </div>
+
+                    <div class="service-types-chart">
+                        <h3>Service Type Coverage (IaaS, PaaS, SaaS)</h3>
+                        <div class="service-types-grid">
+                            <!-- Service types will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Provider Details View -->
+                <section id="providers" class="view">
+                    <h2>Detailed Provider Analysis</h2>
+                    <div class="provider-selector">
+                        <select id="provider-select" class="form-control">
+                            <option value="">Select a provider</option>
+                        </select>
+                    </div>
+                    <div class="provider-details">
+                        <!-- Provider details will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Recommendation View -->
+                <section id="recommendation" class="view">
+                    <h2>Find Your Ideal Cloud Provider</h2>
+                    <div class="recommendation-quiz">
+                        <form id="recommendation-form">
+                            <!-- Questions will be populated by JavaScript -->
+                        </form>
+                        <div class="recommendation-result hidden">
+                            <h3>Recommended Provider</h3>
+                            <div class="recommended-provider">
+                                <!-- Recommendation result will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Cloud Networking & Security Services Analysis | Prepared by Cloud Consultants</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

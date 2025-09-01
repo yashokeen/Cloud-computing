@@ -1,0 +1,7 @@
+Provider,IaaS_Score,PaaS_Score,SaaS_Score
+Cloudflare,70,85,95
+IBM Cloud,90,85,70
+Cisco,80,90,85
+Hetzner,95,30,20
+Zscaler,40,60,95
+Vultr,90,50,40

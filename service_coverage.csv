@@ -1,0 +1,7 @@
+Provider,CDN,WAF,DDoS_Protection,Load_Balancing,DNS_Security,Zero_Trust,SASE,API_Security,Bot_Management,Total_Services
+Cloudflare,1,1,1,1,1,1,1,1,1,9
+IBM Cloud,1,1,1,1,1,1,0,1,1,8
+Cisco,1,1,1,1,1,1,1,1,1,9
+Hetzner,0,0,1,1,0,0,0,0,0,2
+Zscaler,0,1,1,0,1,1,1,1,1,7
+Vultr,1,0,1,1,1,0,0,0,0,4

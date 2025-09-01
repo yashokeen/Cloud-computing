@@ -1,0 +1,7 @@
+Provider,Uptime_SLA_Percent,Monthly_Downtime_Minutes,DDoS_Protection,Security_Features_Score,Global_PoP_Count
+Cloudflare,100.0,0.0,Advanced,95,330
+IBM Cloud,99.9,43.2,Standard,85,60
+Cisco,99.99,4.32,Advanced,90,150
+Hetzner,99.9,43.2,Basic,70,6
+Zscaler,99.99,4.32,Advanced,92,100
+Vultr,99.99,4.32,Standard,75,32
